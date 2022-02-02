@@ -9,5 +9,6 @@ for c in range(1, 501, 2):
     if c % 3 == 0:
         soma += c # Reduzi soma = soma + C
         contador += 1 # Rezuzi Contados = contador + C
+
 #3°: Printar o resultado:
 print("A soma de todos os {} valores solicitados é {}".format(contador, soma))
