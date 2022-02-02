@@ -19,11 +19,11 @@ jogador = int(input("Escolha uma das opções ACIMA: "))
 
 #4: tempo para ''PENSAR''
 print('JO')
-sleep(1)
+sleep(0.5)
 print('KEN')
-sleep(1)
+sleep(0.5)
 print('PO')
-sleep(1)
+sleep(0.5)
 
 #5° Mostrar as escolhas do COMPUTADOR e do JOGADOR:
 print('-=' * 11)
