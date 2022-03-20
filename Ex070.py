@@ -1,4 +1,8 @@
+#Criar um sistema de compra de mercado: que mostre itens Maiores de 1.000 e o mais barato:
+
 total = totmil = menor = cont = 0
+
+#1° Criar um While, para adicionar o Produto e seu Valor.
 while True:
     produto = str(input("Nome do produto: "))
     preço = float(input("preço do produto: R$"))
@@ -12,8 +16,10 @@ while True:
     else:
         if preço < menor:
             menor = preço
-            baratp = produto
+            barato = produto
     resp = ' '
+
+#2°: While para A resposta para adicionar um item ou não:
     while resp not in 'SN':
         resp = str(input("Quer continuar? [S/N] ")).strip().upper()[0]
     if resp == 'N':
